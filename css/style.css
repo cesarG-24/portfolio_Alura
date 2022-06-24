@@ -1,0 +1,488 @@
+
+:root {
+    --cor-de-fundo: #F5F0F0;
+    --cor-de-link: #000;
+    width: 100%;
+    /*margin: auto;*/
+    /*padding: 0;*/
+    align-items: center;
+}
+
+body {
+    font-family: 'Raleway', serif;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*Sección Menu*/
+section.menu {
+    display: flex;
+    padding: 32px 0;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    width: 100%;
+    height: 88px;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.menu__title {
+    margin: 0 10px;
+}
+
+.menu__list {
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.menu__list__item {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    margin: auto 15px;
+}
+
+.menu__list__item:hover{
+    transform: scale(0.9);
+}
+
+.menu__list__item:active{
+    transform: scale(0.8);
+}
+
+
+.menu__list__item__contato {
+    font-weight: 900;
+}
+
+.menu__list__item__contato:hover{
+    transform: scale(0.9);
+}
+
+.menu__list__item__contato:active{
+    transform: scale(0.8);
+}
+
+/*Sección Title*/
+section.title {
+    width: 90%;
+    height: auto;
+    align-items: center;
+}
+
+.title__profile {
+    float: right;
+    width: 368px;
+    height: 368px;
+    margin-top: 33px;
+}
+
+.title__bio {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    align-items: center;
+    text-align: initial;
+    text-align: center;
+    padding: 60px 10px 10px 0;
+}
+
+.title__subsection {
+    margin-top:32px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.title__network {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0;
+    gap: 32px;
+}
+
+/*Sección About*/
+.about {
+    margin: 10% 0 5%;
+    height: 38vh;
+    width:100%;
+    background: #EAF2FD;
+    box-shadow: 1px 1px 15px 0px #C8C8C8;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    width: 90%;
+    height: 85%;
+    margin: 0 auto;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 20px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+
+.about__paragraph {
+    width: 100%;
+    padding: 14px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #464646;
+}
+
+/*skills*/
+.skills__title {
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+    width:auto;
+}
+
+.skills__box, .hobbies__box {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 176px;
+    height: 174px;
+    justify-content: flex-end;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px 0px #C8C8C8;
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies {
+    margin-top: 5%;
+    justify-content: center;
+    width: 100%;
+    height: 244px;
+
+}
+
+.hobbies__title {
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Experiencia Académica*/
+.academic__container {
+    margin: 6% auto;
+    width: 100%;
+    height: 47vh;
+    background: #EAF2FD;
+    box-shadow: 1px 1px 15px 0px #C8C8C8;
+}
+
+.academic__title {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.academic__courses {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.academic__courses__box {
+    /*box-sizing: content-box;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 368px;
+    height: 286px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 15px 0px #C8C8C8;
+}
+
+/* experiencia*/
+
+section.experience {
+}
+
+.experience__section__title {
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.experiencie__box {
+    display: flex;
+    flex-direction: row;
+    margin: 64px;
+
+}
+
+.experience__info {
+    margin-top: 13%;
+
+}
+
+.experience__title {
+    font-size: 22px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.experience__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.experience__img {
+    box-shadow: 1px 1px 15px 2px lightslategray;
+    margin-right: 20px;
+    width: 70%;
+    height: 40%;
+    border-radius: 15px;
+
+}
+
+.experience__description {
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.experiencia__botao--repo {
+    padding: 16px;
+    border: 2px solid #2A7AE4;
+    color: #2A7AE4;
+    outline: none;
+}
+
+
+.experiencia__botao--repo:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:active{
+     transform: scale(0.8);
+ }
+
+.experience__botao--demo {
+    padding: 16px;
+    border: 2px solid #2A7AE4;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    outline: none;
+
+}
+
+.experience__botao--demo:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.experience__botao--demo:active{
+    transform: scale(0.8);
+}
+
+
+/*Contacto*/
+.formcontato__img {
+    width: 100%;
+    height: 59vh;
+}
+
+section.formcontato {
+    margin: 2% 0;
+    height: 70vh;
+    width:100%;
+    background: #EAF2FD;
+    box-shadow: 1px 1px 15px 0px #C8C8C8;
+}
+
+.formcontato--esquerda {
+    /*margin-right: 16px;*/
+}
+
+.formcontato__text{
+    margin-left: 2%;
+}
+
+.formcontato__contacto {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 3%;
+}
+
+
+
+.formcontato__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-bottom: 8px;
+}
+
+.formcontato__subtext {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.formcontato__form {
+    margin-bottom: 32px;
+
+}
+
+.formcontato__input-label {
+    display: block;
+    width: 85%;
+    padding: 8px 12px 8px 12px;
+    box-sizing: content-box;
+    background-color: #FFFFFF;
+    margin-top: 29px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    box-shadow: 0 1px 0 0 #C8C8C8;
+}
+
+.formcontato__input-label2 {
+    display: block;
+    width: 85%;
+    padding: 8px 12px 8px 12px;
+    background-color: #FFFFFF;
+    margin-bottom: 29px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2A7AE4;
+    box-shadow: 0 1px 0 0 #C8C8C8;
+}
+
+.formcontato__input {
+    width: 656px;
+    min-width: 200px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    background-color: transparent;
+}
+
+.formcontato__input3 {
+    margin-bottom: 29px;
+    width: 85%;
+    height: 38px;
+    padding: 8px 12px 8px 12px;
+    min-width: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    box-shadow: 0 1px 0 0 #C8C8C8;
+    border: none;
+}
+
+.formcontato__textarea {
+    resize: none;
+    width: 85%;
+    height: 133px;
+    min-width: 200px;
+    border: none;
+    box-shadow: 0 1px 0 0 #C8C8C8;
+    padding: 16px 12px 8px 12px;
+}
+
+.formcontato__botao {
+    margin-top: 29px;
+    padding: 22px;
+    border: 1px solid #2A7AE4;
+    color: #FFFFFF;
+    outline: none;
+    background-color: #2A7AE4;
+    font-style: normal;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    /*line-height: 19px;*/
+}
+
+.formcontato__botao:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.formcontato__botao:active{
+    transform: scale(0.8);
+}
+
+/*footeer*/
+
+footer{
+    display: block;
+}
+
+.footer__rodape {
+    margin-top: 3%;
+    text-align: center;
+    color: #464646;
+}
+
+
+
+}
