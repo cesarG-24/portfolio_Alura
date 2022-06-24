@@ -6,6 +6,11 @@
 
 
 ### ¡Bienvenido al proyecto base del Portafolio ! 
+--
+<p align="center"> 
+   <img width="100" heigth="100" src="https://i.postimg.cc/SN5S5cF2/cms-files-10224-1644515319-BADGE-2.png"><img width="100" heigth="100" src="https://i.postimg.cc/Pfw2YjXg/cms-files-10224-1644516322badge.png"> <img width="100" heigth="100" src="https://i.postimg.cc/7LPTPghH/cms-files-10224-1645571154-Insignia-3.png">  
+</p>
+
 
 ###
 
