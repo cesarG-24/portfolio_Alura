@@ -42,3 +42,12 @@
 <a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
 <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
+
+###
+
+<img align='left' alt='CSS' width='40px' src='https://cdn-icons-png.flaticon.com/512/331/331383.png'/> <img align='left' alt='HTML' width='40px' src="https://cdn-icons-png.flaticon.com/512/331/331395.png"/><img width='40px' alt="js" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"/>
+
+ ###
+  [Clic aqui para visualizar](https://cesarg-24.github.io/portfolio_Alura/)
+ 
+
